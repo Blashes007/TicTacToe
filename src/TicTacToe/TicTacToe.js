@@ -120,6 +120,7 @@ const TicTacToe = () => {
 
 
             </table>
+            <button onClick={()=>handleRestart()}>Restart</button>
             {winner && (
                 <>
                 <p>{winner} is the winner</p>
